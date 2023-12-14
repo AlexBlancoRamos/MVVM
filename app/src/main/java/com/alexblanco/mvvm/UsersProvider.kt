@@ -1,5 +1,7 @@
 package com.alexblanco.mvvm
 
+import androidx.lifecycle.ViewModelProvider
+
 class UsersProvider {
     companion object {
         fun random(): UserModel {
@@ -7,7 +9,7 @@ class UsersProvider {
             return quotes[position]
         }
 
-        private val quotes = listOf(
+        val quotes = listOf(
             UserModel(
                 user = "Alex",
                 edat = 19,

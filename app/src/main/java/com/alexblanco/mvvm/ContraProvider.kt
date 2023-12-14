@@ -4,19 +4,19 @@ class ContraProvider {
     companion object {
         val quotes = listOf(
             ContraModel(
-                user = "Alex",
+                name = "Alex",
                 contra = "patata"
             ),
             ContraModel(
-                user = "Marc",
+                name = "Marc",
                 contra = "patata"
             ),
             ContraModel(
-                user = "Aram",
+                name = "Aram",
                 contra = "patata"
             ),
             ContraModel(
-                user = "Dani",
+                name = "Dani",
                 contra = "patata"
             )
         )
